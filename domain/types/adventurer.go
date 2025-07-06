@@ -8,7 +8,7 @@ import (
 
 type Adventurer struct {
 	Name          string
-	Orientation   enum.PlayerOrientation // "N", "E", "S", "W"
+	Orientation   enum.PlayerOrientation
 	X             int
 	Y             int
 	Path          []enum.PlayerMove
